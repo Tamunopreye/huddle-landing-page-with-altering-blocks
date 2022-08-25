@@ -1,0 +1,11 @@
+:root {
+	--VeryPaleCyan: hsl(193, 100%, 96%);
+	--VeryDarkCyan: hsl(192, 100%, 9%);
+	--GrayishBlue: hsl(208, 11%, 55%);
+}
+* {
+	box-sizing: border-box;
+}
+.hero {
+	background-image: url(/images/bg-hero-desktop.svg);
+}
