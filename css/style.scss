@@ -20,11 +20,46 @@ body {
 }
 
 .hero {
-	// background-image: url(/images/bg-hero-desktop.svg);
-	background-size: contain;
+	background-image: url(/images/bg-hero-desktop.svg);
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 100%;
 	min-height: 50vh;
-	// background-color: var(--GrayishBlue);
+	background-color: var(--VeryPaleCyan);
+	overflow: auto;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+	margin-bottom: 7rem;
+}
+.btn-pink {
+	padding: 0.54rem 2rem;
+	background-color: var(--Pink);
+	text-align: center;
+	color: #fff;
+	border: none;
+	border-radius: 3rem;
+}
+.article > section:first-child {
+	margin-top: 10rem;
+}
+.article > section:last-child {
+	margin-bottom: 10rem;
+}
+.card-container {
+	border: 1px solid lightgrey;
+	margin-top: 3rem;
+	box-shadow: 10px 10px 30px lightgrey;
+}
+.card-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+.button-bg {
+	background-color: #fff;
 }
