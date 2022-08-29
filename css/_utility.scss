@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600&display=swap");
+
+:root {
+	--Pink: hsl(322, 100%, 66%);
+	--VeryPaleCyan: hsl(193, 100%, 96%);
+	--VeryDarkCyan: hsl(192, 100%, 9%);
+	--GrayishBlue: hsl(208, 11%, 55%);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+}

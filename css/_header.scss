@@ -1,0 +1,47 @@
+.hero {
+	font-family: "Poppins", sans-serif;
+	background-image: url(/images/bg-hero-desktop.svg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 50vh;
+	background-color: var(--VeryPaleCyan);
+	overflow: auto;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+	margin-bottom: 7rem;
+}
+@media screen and (max-width: 600px) {
+	.nav {
+		display: flex;
+		flex-direction: column;
+	}
+	.btn-nav-bg {
+		margin-top: 1rem;
+	}
+}
+.btn-nav-bg {
+	background-color: #fff;
+}
+.btn-pink-button {
+	margin-top: 2rem;
+	padding: 0.54rem 2rem;
+	background-color: var(--Pink);
+	text-align: center;
+	color: #fff;
+	border: none;
+	border-radius: 3rem;
+}
+@media screen and (max-width: 768px) {
+	main h2 {
+		margin: auto;
+	}
+
+	.btn-pink-button {
+		margin: auto;
+	}
+}
